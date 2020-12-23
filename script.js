@@ -10,8 +10,9 @@ VanillaTilt.init(document.querySelectorAll(".card"),{
 
 snowStorm.followMouse = false;
 snowStorm.snowStick = false;
+snowStorm.useMeltEffect = false;
 snowStorm.vMaxX = 1;
-snowStorm.vMaxY = 5;
+snowStorm.vMaxY = 2;
 /*(function() {
     let canvas = document.getElementById('confetti-canvas'),
             context = canvas.getContext('2d');
