@@ -8,7 +8,11 @@ VanillaTilt.init(document.querySelectorAll(".card"),{
   glare: true
 });
 
-(function() {
+snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 5;
+/*(function() {
     let canvas = document.getElementById('confetti-canvas'),
             context = canvas.getContext('2d');
 
@@ -19,10 +23,7 @@ VanillaTilt.init(document.querySelectorAll(".card"),{
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
 
-            /**
-             * Your drawings need to be inside this function otherwise they will be reset when 
-             * you resize the browser window and the canvas goes will be cleared.
-             */
+
             drawStuff(); 
     }
     resizeCanvas();
@@ -34,4 +35,4 @@ VanillaTilt.init(document.querySelectorAll(".card"),{
       let confetti = new ConfettiGenerator(confettiSettings);
             confetti.render();
     }
-})();
+})();*/
