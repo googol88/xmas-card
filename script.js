@@ -8,6 +8,7 @@ VanillaTilt.init(document.querySelectorAll(".card"),{
   glare: true
 });
 
+snowStorm.excludeMobile = false;
 snowStorm.followMouse = false;
 snowStorm.snowStick = false;
 snowStorm.useMeltEffect = false;
