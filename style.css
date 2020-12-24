@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   
-  overflow: none;
+  overflow: hidden;
     
   margin: 0;
   /*background-color: rgb(220, 220, 220);

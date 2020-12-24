@@ -11,6 +11,7 @@ VanillaTilt.init(document.querySelectorAll(".card"),{
 snowStorm.followMouse = false;
 snowStorm.snowStick = false;
 snowStorm.useMeltEffect = false;
+snowStorm.freezeOnBlur = false;
 snowStorm.vMaxX = 1;
 snowStorm.vMaxY = 2;
 /*(function() {
