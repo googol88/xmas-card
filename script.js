@@ -12,7 +12,7 @@ snowStorm.followMouse = false;
 snowStorm.snowStick = false;
 snowStorm.useMeltEffect = false;
 snowStorm.freezeOnBlur = false;
-snowStorm.vMaxX = 1;
+snowStorm.vMaxX = 0;
 snowStorm.vMaxY = 2;
 /*(function() {
     let canvas = document.getElementById('confetti-canvas'),
